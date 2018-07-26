@@ -215,7 +215,7 @@ that key is pressed to begin a block literal."
   "Syntax table in use in `yaml-mode' buffers.")
 
 ;;;###autoload
-(define-derived-mode yaml-mode text-mode "YAML"
+(define-derived-mode yaml-mode prog-mode "YAML"
   "Simple mode to edit YAML.
 
 \\{yaml-mode-map}"
